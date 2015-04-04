@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 app.config.from_object('config.DevelopmentConfig')
 
-@app.route("/home")
+@app.route("/")
 def home():
 	return render_template('index.html')
 @app.route('/projects')
