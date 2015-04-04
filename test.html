@@ -1,0 +1,135 @@
+<html>
+
+    <head>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="css/roboto.min.css" rel="stylesheet">
+        <link href="css/material.min.css" rel="stylesheet">
+        <link href="css/ripples.min.css" rel="stylesheet">
+
+    </head>
+
+    <body style="background: url('img/back2.jpg') no-repeat center center fixed; background-size: cover; width:100%;">
+    <div class="container" style="background: url('img/back2.jpg') no-repeat center center fixed; background-size: cover; width:100%;">
+
+        <!-- Your site -->
+        <div class="navbar navbar-warning navbar-fixed-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/" >Eashan Kadam</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse ">
+        <ul class="nav navbar-nav" >
+            <li class="active"><a href="javascript:void(0)">Home</a></li>
+            <li><a data-target="#modal-about" data-toggle="modal">About Me</a></li>
+            <li><a data-target="#modal-resume" data-toggle="modal">Resume</a></li>
+            <li ><a href="projects.html">Projects</a></li>
+        </ul>
+      
+    </div>
+</div>
+<br><br><br>
+        <center>
+<header style="width:70%;">
+        <div class="jumbotron" style="background:transparent;">
+    <center>
+    <h1 style="color:#FF3D00;">Eashan Kadam</h1>
+      <img class='img-circle' src="img/Eashan.jpg" style="width:300px; height:300px;">
+   
+ 
+      </center>
+  </div>
+</header>
+
+</center>
+<div id="sec1"  >
+  <div class="container shadow-z-3" style="width:70%;background: #ffffff;">
+    <div class="row">
+      <div class="col-md-12 text-center" >
+        <h1>I am an IT Undergraduate from VJTI    </h1>
+        <p class="lead">With a flair for Technology<br> </p>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<div id="sec2"  >
+  <div class="container shadow-z-3" style="width:50%;background: #ffffff;">
+    <div class="row">
+      <div class="col-md-4">
+
+        
+    </div>
+    <div class="col-md-4">
+    <button class="btn btn-warning btn-fab btn-raised mdi-action-account-circle" data-target="#modal-about" data-toggle="modal" data-placement="bottom" title="" data-original-title="Tooltip on bottom"></button>
+    <button class="btn btn-warning btn-fab btn-raised mdi-editor-insert-drive-file" data-target="#modal-resume" data-toggle="modal" ></button>
+    </div>
+    <div class="col-md-4">
+    </div>
+
+        
+      </div>
+
+    </div>
+    <div class="row">
+   <br><br><br>
+
+    </div>
+  </div>
+</div>
+
+      <div id="modal-about" class="modal fade" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close mdi-content-clear" data-dismiss="modal" aria-hidden="true"></button>
+        <h3 class="modal-title">About Me</h3>
+      </div>
+      <div class="modal-body">
+        <h4>As an IT Undergraduate from VJTI, I have always strived to learn new Technologies, I believe that the best way to learn any Technology, is to apply it, which is why I take up Projects and see them through, this gives me tremendous exposure to the enviornment. </h4>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div id="modal-resume" class="modal fade bs-example-modal-lg" tabindex="-1" >
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close mdi-content-clear" data-dismiss="modal" aria-hidden="true"></button>
+        <h3 class="modal-title">Resume</h3>
+      </div>
+      <div class="modal-body">
+       <iframe src="doc/Resume.pdf" width="95%" height="90%"></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
+        <!-- Your site ends -->
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/ripples.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize Bootstrap's Material Design Library
+                $.material.init();
+            });
+        </script>
+
+    </body>
+
+</html>
